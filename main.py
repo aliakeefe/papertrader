@@ -15,7 +15,7 @@ trading_client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 
-# Setting parameters for our buy order
+# Setting parameters for our buy orde
 market_order_data = MarketOrderRequest(
     symbol="TXG",
     qty=5,
